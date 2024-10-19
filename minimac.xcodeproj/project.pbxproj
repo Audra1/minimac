@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2CBE682CC3305A008F39BF /* minimacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CBE672CC3305A008F39BF /* minimacApp.swift */; };
+		AC2CBE6A2CC3305A008F39BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CBE692CC3305A008F39BF /* ContentView.swift */; };
+		AC2CBE6C2CC3305C008F39BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2CBE6B2CC3305C008F39BF /* Assets.xcassets */; };
+		AC2CBE6F2CC3305C008F39BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2CBE6E2CC3305C008F39BF /* Preview Assets.xcassets */; };
+		AC2CBE7A2CC3305C008F39BF /* minimacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CBE792CC3305C008F39BF /* minimacTests.swift */; };
+		AC2CBE842CC3305C008F39BF /* minimacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CBE832CC3305C008F39BF /* minimacUITests.swift */; };
+		AC2CBE862CC3305C008F39BF /* minimacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CBE852CC3305C008F39BF /* minimacUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC2CBE762CC3305C008F39BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC2CBE5C2CC3305A008F39BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2CBE632CC3305A008F39BF;
+			remoteInfo = minimac;
+		};
+		AC2CBE802CC3305C008F39BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC2CBE5C2CC3305A008F39BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2CBE632CC3305A008F39BF;
+			remoteInfo = minimac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC2CBE642CC3305A008F39BF /* minimac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minimac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2CBE672CC3305A008F39BF /* minimacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minimacApp.swift; sourceTree = "<group>"; };
+		AC2CBE692CC3305A008F39BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC2CBE6B2CC3305C008F39BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC2CBE6E2CC3305C008F39BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC2CBE702CC3305C008F39BF /* minimac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = minimac.entitlements; sourceTree = "<group>"; };
+		AC2CBE752CC3305C008F39BF /* minimacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minimacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2CBE792CC3305C008F39BF /* minimacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minimacTests.swift; sourceTree = "<group>"; };
+		AC2CBE7F2CC3305C008F39BF /* minimacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = minimacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2CBE832CC3305C008F39BF /* minimacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minimacUITests.swift; sourceTree = "<group>"; };
+		AC2CBE852CC3305C008F39BF /* minimacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minimacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC2CBE612CC3305A008F39BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2CBE722CC3305C008F39BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2CBE7C2CC3305C008F39BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC2CBE5B2CC3305A008F39BF = {
+			isa = PBXGroup;
+			children = (
+				AC2CBE662CC3305A008F39BF /* minimac */,
+				AC2CBE782CC3305C008F39BF /* minimacTests */,
+				AC2CBE822CC3305C008F39BF /* minimacUITests */,
+				AC2CBE652CC3305A008F39BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC2CBE652CC3305A008F39BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC2CBE642CC3305A008F39BF /* minimac.app */,
+				AC2CBE752CC3305C008F39BF /* minimacTests.xctest */,
+				AC2CBE7F2CC3305C008F39BF /* minimacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC2CBE662CC3305A008F39BF /* minimac */ = {
+			isa = PBXGroup;
+			children = (
+				AC2CBE672CC3305A008F39BF /* minimacApp.swift */,
+				AC2CBE692CC3305A008F39BF /* ContentView.swift */,
+				AC2CBE6B2CC3305C008F39BF /* Assets.xcassets */,
+				AC2CBE702CC3305C008F39BF /* minimac.entitlements */,
+				AC2CBE6D2CC3305C008F39BF /* Preview Content */,
+			);
+			path = minimac;
+			sourceTree = "<group>";
+		};
+		AC2CBE6D2CC3305C008F39BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC2CBE6E2CC3305C008F39BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC2CBE782CC3305C008F39BF /* minimacTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC2CBE792CC3305C008F39BF /* minimacTests.swift */,
+			);
+			path = minimacTests;
+			sourceTree = "<group>";
+		};
+		AC2CBE822CC3305C008F39BF /* minimacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC2CBE832CC3305C008F39BF /* minimacUITests.swift */,
+				AC2CBE852CC3305C008F39BF /* minimacUITestsLaunchTests.swift */,
+			);
+			path = minimacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC2CBE632CC3305A008F39BF /* minimac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2CBE892CC3305C008F39BF /* Build configuration list for PBXNativeTarget "minimac" */;
+			buildPhases = (
+				AC2CBE602CC3305A008F39BF /* Sources */,
+				AC2CBE612CC3305A008F39BF /* Frameworks */,
+				AC2CBE622CC3305A008F39BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = minimac;
+			productName = minimac;
+			productReference = AC2CBE642CC3305A008F39BF /* minimac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC2CBE742CC3305C008F39BF /* minimacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2CBE8C2CC3305C008F39BF /* Build configuration list for PBXNativeTarget "minimacTests" */;
+			buildPhases = (
+				AC2CBE712CC3305C008F39BF /* Sources */,
+				AC2CBE722CC3305C008F39BF /* Frameworks */,
+				AC2CBE732CC3305C008F39BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2CBE772CC3305C008F39BF /* PBXTargetDependency */,
+			);
+			name = minimacTests;
+			productName = minimacTests;
+			productReference = AC2CBE752CC3305C008F39BF /* minimacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC2CBE7E2CC3305C008F39BF /* minimacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2CBE8F2CC3305C008F39BF /* Build configuration list for PBXNativeTarget "minimacUITests" */;
+			buildPhases = (
+				AC2CBE7B2CC3305C008F39BF /* Sources */,
+				AC2CBE7C2CC3305C008F39BF /* Frameworks */,
+				AC2CBE7D2CC3305C008F39BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2CBE812CC3305C008F39BF /* PBXTargetDependency */,
+			);
+			name = minimacUITests;
+			productName = minimacUITests;
+			productReference = AC2CBE7F2CC3305C008F39BF /* minimacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC2CBE5C2CC3305A008F39BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AC2CBE632CC3305A008F39BF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AC2CBE742CC3305C008F39BF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AC2CBE632CC3305A008F39BF;
+					};
+					AC2CBE7E2CC3305C008F39BF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AC2CBE632CC3305A008F39BF;
+					};
+				};
+			};
+			buildConfigurationList = AC2CBE5F2CC3305A008F39BF /* Build configuration list for PBXProject "minimac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC2CBE5B2CC3305A008F39BF;
+			productRefGroup = AC2CBE652CC3305A008F39BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC2CBE632CC3305A008F39BF /* minimac */,
+				AC2CBE742CC3305C008F39BF /* minimacTests */,
+				AC2CBE7E2CC3305C008F39BF /* minimacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC2CBE622CC3305A008F39BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2CBE6F2CC3305C008F39BF /* Preview Assets.xcassets in Resources */,
+				AC2CBE6C2CC3305C008F39BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2CBE732CC3305C008F39BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2CBE7D2CC3305C008F39BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC2CBE602CC3305A008F39BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2CBE6A2CC3305A008F39BF /* ContentView.swift in Sources */,
+				AC2CBE682CC3305A008F39BF /* minimacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2CBE712CC3305C008F39BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2CBE7A2CC3305C008F39BF /* minimacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2CBE7B2CC3305C008F39BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2CBE842CC3305C008F39BF /* minimacUITests.swift in Sources */,
+				AC2CBE862CC3305C008F39BF /* minimacUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC2CBE772CC3305C008F39BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC2CBE632CC3305A008F39BF /* minimac */;
+			targetProxy = AC2CBE762CC3305C008F39BF /* PBXContainerItemProxy */;
+		};
+		AC2CBE812CC3305C008F39BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC2CBE632CC3305A008F39BF /* minimac */;
+			targetProxy = AC2CBE802CC3305C008F39BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC2CBE872CC3305C008F39BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC2CBE882CC3305C008F39BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AC2CBE8A2CC3305C008F39BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = minimac/minimac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"minimac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucas.audra.minimac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC2CBE8B2CC3305C008F39BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = minimac/minimac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"minimac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucas.audra.minimac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AC2CBE8D2CC3305C008F39BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucas.audra.minimacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minimac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/minimac";
+			};
+			name = Debug;
+		};
+		AC2CBE8E2CC3305C008F39BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucas.audra.minimacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/minimac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/minimac";
+			};
+			name = Release;
+		};
+		AC2CBE902CC3305C008F39BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucas.audra.minimacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = minimac;
+			};
+			name = Debug;
+		};
+		AC2CBE912CC3305C008F39BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lucas.audra.minimacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = minimac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC2CBE5F2CC3305A008F39BF /* Build configuration list for PBXProject "minimac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2CBE872CC3305C008F39BF /* Debug */,
+				AC2CBE882CC3305C008F39BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2CBE892CC3305C008F39BF /* Build configuration list for PBXNativeTarget "minimac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2CBE8A2CC3305C008F39BF /* Debug */,
+				AC2CBE8B2CC3305C008F39BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2CBE8C2CC3305C008F39BF /* Build configuration list for PBXNativeTarget "minimacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2CBE8D2CC3305C008F39BF /* Debug */,
+				AC2CBE8E2CC3305C008F39BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2CBE8F2CC3305C008F39BF /* Build configuration list for PBXNativeTarget "minimacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2CBE902CC3305C008F39BF /* Debug */,
+				AC2CBE912CC3305C008F39BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC2CBE5C2CC3305A008F39BF /* Project object */;
+}
